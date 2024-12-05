@@ -10,12 +10,12 @@ h1 {
     text-align: center;
 }
 .heading-bar {
-    width: 100%; /* Full width */
-    height: 10px; /* Height of the bar */
-    background-color: #000000; /* Color of the bar (Electric Violet) */
-    margin: 20 auto; /* Center the bar */
+    width: 100%; 
+    height: 10px; 
+    background-color: #000000; 
+    margin: 20 auto; 
     margin-top: 20px;
-    margin-bottom: 20px; /* Space below the bar */
+    margin-bottom: 20px; 
 }
 
 .gallery {
@@ -30,8 +30,8 @@ h1 {
 }
 
 .thumbnail {
-    width: 150px; /* Set the desired width */
-    height: 200px; /* Set the height to maintain 3:4 aspect ratio */
+    width: 150px; 
+    height: 200px; 
     margin: 5px;
     cursor: pointer;
     transition: transform 0.3s ease, border 0.2s;
@@ -39,14 +39,14 @@ h1 {
 }
 
 .thumbnail img {
-    width: 100%; /* Make the image fill the thumbnail */
-    height: 100%; /* Make the image fill the thumbnail */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
 .thumbnail:hover {
     transform: scale(1.05)rotate(5deg);
-    border: 3px solid #fefcff; /* Electric violet border on hover */
+    border: 3px solid #fefcff; 
 }
 
 .lightbox {
